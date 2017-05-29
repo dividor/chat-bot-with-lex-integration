@@ -1,7 +1,6 @@
 # chat-bot javascript client with integration to Amazon Lex chatbot service
 
-This is a fork of the excellent [chat-bot](https://github.com/liouh/chat-bot), which adds an example of integration with the [Amazon Lex](https://aws.amazon.com/lex/) chat platform, without the need for a messaging platform like
-Facebook Message or Slack.
+This is a fork of the excellent [chat-bot](https://github.com/liouh/chat-bot) javascript chat client, which adds an example of integration with the [Amazon Lex](https://aws.amazon.com/lex/) chat platform, without the need for a messaging platform like Facebook Message or Slack.
 
 You could for example embed something like this into a website, to get quick integration with Lex.
 
@@ -16,6 +15,7 @@ Flow is as follows:
 
 In production, you'd need to add code to do things based on the result in step 6, such as provide the FAQ answer, book a flight, etc.
 
+![](./demo_example.png)
 
 ## Configuration
 
